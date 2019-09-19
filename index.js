@@ -19,7 +19,7 @@
 // }
 
 function findMatching(array, string) {
-  array.filter(function(driver) {
+  return array.filter(function(driver) {
       return driver === string;
   })
 }
