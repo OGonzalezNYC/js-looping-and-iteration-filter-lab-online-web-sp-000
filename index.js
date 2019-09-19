@@ -24,3 +24,6 @@ function findMatching(array, string) {
   })
 }
 
+function fuzzyMatch(array, string) {
+  
+}
