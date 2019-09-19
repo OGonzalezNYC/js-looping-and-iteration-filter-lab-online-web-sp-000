@@ -8,8 +8,8 @@ function findMatching(array, string) {
 
 function fuzzyMatch(array, string) {
   return array.filter(function(driver) {
-    // return driver.slice(0, 2) === string.slice();
-    return driver.slice(0, string.length) === string;
+    // // return driver.slice(0, 2) === string.slice();
+    // return driver.slice(0, string.length) === string;
   })
 }
 
