@@ -26,6 +26,6 @@ function findMatching(array, string) {
 
 function fuzzyMatch(array, string) {
   return array.filter(function(driver) {
-    return driver
+    return driver.toUpperCase().slice(0, 2) === string.toUpperCase().slice(0, 2);
   })
 }
