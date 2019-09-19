@@ -31,6 +31,6 @@ function fuzzyMatch(array, string) {
   })
 }
 
-function matchname() {
+function matchname(array, string) {
   
 }
