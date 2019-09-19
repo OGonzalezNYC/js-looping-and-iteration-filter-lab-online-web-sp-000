@@ -21,6 +21,8 @@
 function findMatching(array, string) {
   array.filter(function(driver) {
     // if (driver.name === string) {
-      return driver === string})
+      return driver === string
+    
+  })
   // });
 }
