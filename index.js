@@ -20,6 +20,6 @@
 
 function findMatching(array, string) {
   return array.filter(function(driver) {
-      return driver === string;
+      return driver.toUpperCase() === string.toUpperCase();
   })
 }
