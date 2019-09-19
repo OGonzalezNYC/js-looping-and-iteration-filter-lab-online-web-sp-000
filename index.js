@@ -26,6 +26,6 @@ function findMatching(array, string) {
 
 function fuzzyMatch(array, string) {
   return array.filter(function(driver) {
-    
+    return driver
   })
 }
