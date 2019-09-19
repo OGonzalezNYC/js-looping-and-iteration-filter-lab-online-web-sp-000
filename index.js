@@ -20,6 +20,6 @@
 
 function findMatching(array, string) {
   array.filter(function(driver) {
-      return driver === string
+      return driver === string;
   })
 }
